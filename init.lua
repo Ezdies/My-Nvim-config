@@ -98,6 +98,9 @@ vim.api.nvim_create_autocmd('BufWritePost', {
 -- Set highlight on search
 vim.o.hlsearch = false
 
+-- Set clipboard
+vim.opt.clipboard = 'unnamedplus'
+
 -- Make line numbers default
 vim.wo.number = true
 vim.wo.relativenumber = true
